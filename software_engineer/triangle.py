@@ -31,7 +31,7 @@ def foo(input_file_path):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        msg = 'Usage: python trangle.py <inputfile>'
+        msg = 'Usage: python triangle.py <inputfile>'
         print msg
         exit(1)
     rtn = foo(sys.argv[1])
