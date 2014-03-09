@@ -11,6 +11,6 @@
 
 * Source code: jungglefest.py
 * Input: jungglefest.txt
-* Usage: python jungglefest.py <input_file> <output_file>, For example:
+* Usage: python jungglefest.py \<input_file\> \<output_file\>, For example:
 
     python jungglefest.py jungglefest.txt output.txt
