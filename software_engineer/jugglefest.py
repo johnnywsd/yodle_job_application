@@ -67,7 +67,10 @@ def assign(c_dict, j_dict, num_jugglers_per_circle, max_num_preferenct):
             if juggler['is_assigned']:
                 continue
             preference = juggler['preference']
-            pref = preference[i]
+            if len(preference) > i:
+                pref = preference[i]
+            else:
+                continue
             _max_n_list(c_dict[pref]['candidates'],
                         juggler, pref, num_jugglers_per_circle)
         for key in c_dict:
